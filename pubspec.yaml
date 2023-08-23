@@ -27,7 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  bloc: 
+  bloc: null
   cupertino_icons: null
   dio: ^5.3.2
   equatable: null
@@ -37,7 +37,7 @@ dependencies:
   flutter_bloc: null
   flutter_secure_storage: ^8.0.0
   http: null
-  introduction_screen: 
+  introduction_screen: null
   json_annotation: null
   qr_code_scanner: null
   rxdart: ^0.27.7

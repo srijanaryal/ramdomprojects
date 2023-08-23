@@ -13,7 +13,8 @@ class _FilterScreenState extends State<FilterScreen> {
     'Accessories',
     'Gadgets',
     'Electronics',
-    'Kitchenware'
+    'Kitchenware',
+    'Sports'
   ];
 
   List<String> selectedCategories = [];
@@ -36,6 +37,8 @@ class _FilterScreenState extends State<FilterScreen> {
             child: Row(
                 children: categories
                     .map((category) => FilterChip(
+                        shadowColor: Colors.green,
+                        selectedColor: Colors.red,
                         selected: selectedCategories.contains(category),
                         label: Text(category),
                         onSelected: (selected) {
